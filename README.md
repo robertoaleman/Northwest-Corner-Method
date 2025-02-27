@@ -2,7 +2,7 @@
 Northwest Corner Method
 
 Project Description: Northwest Corner Method Application
-Developed by Roberto Alemán, ventics.com IG:@ven.tics
+Developed by Roberto Alemán, ventics.com  
 
 This project is an interactive PHP application designed to solve transportation problems using the Northwest Corner Method. It specifically addresses scenarios involving 4 plants and 4 warehouses, each with their respective supply and demand requirements.
 
