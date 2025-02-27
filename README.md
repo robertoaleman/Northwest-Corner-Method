@@ -41,9 +41,13 @@ Northwest Corner: Refers to the upper-left cell in a transportation table that r
 Method Steps
 
 Build the Transportation Table: Organize the data into a table where the rows represent the origins, the columns represent the destinations, and the cells contain the unit transportation costs.
+
 Assign the Maximum Possible Quantity: Start in the northwest corner cell and assign the largest possible quantity of units, taking into account the supply constraints of the origin and the demand of the destination.
+
 Adjust Supply and Demand: Subtract the assigned quantity from the origin's supply and the destination's demand. If the supply is exhausted, eliminate the corresponding row. If the demand is met, eliminate the corresponding column.
+
 Move to the Next Cell: If the row was eliminated, move to the next cell down in the same column. If the column was eliminated, move to the next cell to the right in the same row. If both the row and column were eliminated, move to the next cell diagonally.
+
 Repeat the Process: Continue assigning quantities and adjusting supply and demand until all constraints are satisfied.
 
 Considerations
